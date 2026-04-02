@@ -1,4 +1,8 @@
-# LogViewer
+# [Log Viewer](https://github.com/opcodesio/log-viewer)
+
+![log-viewer-light-dark](https://user-images.githubusercontent.com/8697942/186705175-d51db6ef-1615-4f94-aa1e-3ecbcb29ea24.png)
+
+## Installation
 
 * Clone repository and navigate to it:
 
