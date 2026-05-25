@@ -9,6 +9,6 @@ COPY . /app
 RUN composer install --optimize-autoloader --no-dev \
     && php artisan optimize
 
-EXPOSE 8080
+EXPOSE 8081
 
-CMD ["frankenphp", "php-server", "--root=/app/public", "--listen=:8080"]
+CMD ["frankenphp", "php-server", "--root=/app/public", "--listen=:8081"]

@@ -26,7 +26,7 @@ docker build -t log-viewer .
 * Run container (change volume mappings according to your environment):
 
 ```shell
-docker run -d --name=log-viewer --restart=always -p 8080:8080 -v /var/www:/var/www log-viewer
+docker run -d --name=log-viewer --restart=always -p 8081:8081 -v /var/www:/var/www log-viewer
 ```
 
-* Open `http://localhost:8080` to see logs.
+* Open `http://localhost:8081` to see logs.
